@@ -1,6 +1,7 @@
 import { Routes } from '@angular/router';
 import { First } from './first/first';
 import { Second } from './second/second';
+import { Third } from './third/third';
 export const routes: Routes = [
 
     {
@@ -10,5 +11,9 @@ export const routes: Routes = [
     {
         path:'app-second',
         component:Second
+    },
+    {
+        path:'app-third',
+        component:Third
     }
 ];
